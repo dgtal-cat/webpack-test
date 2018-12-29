@@ -1,0 +1,26 @@
+{
+  "name": "webpack-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/js/app.js",
+  "scripts": {
+    "build": "webpack",
+    "watch": "webpack --watch",
+    "server": "webpack-dev-server --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dgtal-cat/webpack-test.git"
+  },
+  "author": "dgtal_cat",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dgtal-cat/webpack-test/issues"
+  },
+  "homepage": "https://github.com/dgtal-cat/webpack-test#readme",
+  "devDependencies": {
+    "webpack": "^4.28.2",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.14"
+  }
+}
