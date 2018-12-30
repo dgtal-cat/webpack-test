@@ -1,12 +1,19 @@
-import React, { Component } from "react";
+import React from "react";
 
+import '../styles/reset.css';
 import '../styles/app.css';
 
-class App extends Component {
+import Form from "./form";
+import Info from "./info";
+import Weather from "./weather";
+
+class App extends React.Component {
     render() {
         return (
             <div>
-                <h1>My React App!</h1>
+                <Info />
+                <Form />
+                <Weather/>
             </div>
         );
     }
