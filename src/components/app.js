@@ -11,8 +11,8 @@ class App extends React.Component {
     render() {
         return (
             <div>
-                <Info />
-                <Form />
+                <Info/>
+                <Form/>
                 <Weather/>
             </div>
         );
